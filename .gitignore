@@ -1,1 +1,5 @@
 .vscode
+cpp-file
+
+obj/
+bin/
