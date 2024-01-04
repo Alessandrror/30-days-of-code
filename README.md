@@ -25,3 +25,67 @@ I chose the languages ​​according to my preferences, so the order to follow 
 <!-- - [C](https://www.learn-c.org/) -->
 
 And yes, it depends on my time and if I don't die on the way to achieving it, I will consider adding other languages ​​to practice and understand the syntax.
+
+## Installation
+
+If you don't have [Git](https://git-scm.com/), you'll need to install it and then just copy the next command on your terminal/console:
+
+```sh
+git clone git@github.com:Alessandrror/30-days-of-code.git
+```
+
+After this you'll see a folder in your directory with the name of the project.
+
+## Run
+
+**Important To run a program you must have the environments, interpreters, compilers or other tools required for each language.**
+
+The prefixes you use to run the files for each language are:
+
+### JavaScript:
+
+```sh
+node ./source-path
+```
+
+<!-- ### TypeScript:
+
+```sh
+npx ts-node ./source-path
+```
+
+### Python:
+
+```sh
+python3 ./source-path
+```
+
+### PHP:
+
+```sh
+php ./source-path
+```
+
+### C#:
+
+```sh
+dotnet run --project ./source-path
+```
+
+### Rust:
+
+```sh
+rustc ./source-path
+```
+
+### Bash:
+
+```sh
+sh ./source-path
+```
+
+### C++:
+
+```sh
+g++ -o ./new-file-name ./source-path
+``` -->
