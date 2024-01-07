@@ -68,14 +68,35 @@ php ./source-path
 
 ### C#:
 
+Create:
+
+```sh
+dotnet new console -o ./source-path
+```
+Run:
+
 ```sh
 dotnet run --project ./source-path
 ```
 
 ### Rust:
 
+Compile:
+
 ```sh
 rustc ./source-path
+```
+
+Run:
+
+```sh
+./source-path
+```
+
+### Ruby:
+
+```sh
+ruby ./source-path
 ```
 
 ### Bash:
