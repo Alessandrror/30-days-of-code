@@ -48,13 +48,13 @@ The prefixes you use to run the files for each language are:
 node ./source-path
 ```
 
-<!-- ### TypeScript:
+### TypeScript:
 
 ```sh
 npx ts-node ./source-path
 ```
 
-### Python:
+<!-- ### Python:
 
 ```sh
 python3 ./source-path
