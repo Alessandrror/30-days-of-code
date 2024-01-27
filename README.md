@@ -54,7 +54,7 @@ node ./source-path
 npx ts-node ./source-path
 ```
 
-<!-- ### Python:
+### Python:
 
 ```sh
 python3 ./source-path
