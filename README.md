@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `30 days of code` is a popular trending in the programming and development world. The main idea is simple: <b>code for 30 days</b>.
+The `30 days of code` is a popular trending in the programming and development world. The main idea is simple: **code for 30 days**.
 
 In this case, I will use the challenges provided by [Hacker Rank](https://www.hackerrank.com/) and try to complete each challenge in a few languages ​​that I want to practice.
 
@@ -42,44 +42,45 @@ After this you'll see a folder in your directory with the name of the project.
 
 The prefixes you use to run the files for each language are:
 
-### JavaScript:
+### JavaScript
 
 ```sh
 node ./source-path
 ```
 
-### TypeScript:
+### TypeScript
 
 ```sh
 npx ts-node ./source-path
 ```
 
-### Python:
+### Python
 
 ```sh
 python3 ./source-path
 ```
 
-<!-- ### PHP:
+### PHP
 
 ```sh
 php ./source-path
 ```
 
-### C#:
+### C#
 
 Create:
 
 ```sh
 dotnet new console -o ./source-path
 ```
+
 Run:
 
 ```sh
 dotnet run --project ./source-path
 ```
 
-### Rust:
+### Rust
 
 Compile:
 
@@ -93,13 +94,13 @@ Run:
 ./source-path
 ```
 
-### Ruby:
+### Ruby
 
 ```sh
 ruby ./source-path
 ```
 
-### Bash:
+<!-- ### Bash:
 
 ```sh
 sh ./source-path
