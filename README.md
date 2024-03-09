@@ -100,14 +100,14 @@ Run:
 ruby ./source-path
 ```
 
-<!-- ### Bash:
+### Bash
 
 ```sh
 sh ./source-path
 ```
 
-### C++:
+### C++
 
 ```sh
 g++ -o ./new-file-name ./source-path
-``` -->
+```
