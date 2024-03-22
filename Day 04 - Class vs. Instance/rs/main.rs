@@ -1,21 +1,18 @@
-#![allow(non_snake_case)]
-
 struct Person {
     age: i32
 }
 
 impl Person {
-  fn new(initial_Age: i32) -> Person {
+  fn new(initial_age: i32) -> Person {
     // Add some more code to run some checks on initialAge
-    if initial_Age < 0 {
+    if initial_age < 0 {
       println!("Age is not valid, setting age to 0.");
-      return Person { age: 0 };
-    } else {
-      return Person { age: initial_Age };
+      Person { age: 0 }
     }
+    Person { age: initial_age }
   }
 
-  fn amIOld(&self) {
+  fn am_i_old(&self) {
     // Do some computations in here and print out the correct statement to the console
     if &self.age < &13 {
       println!("You are young.");
@@ -26,7 +23,7 @@ impl Person {
     }
   }
 
-  fn yearPasses(&mut self) {
+  fn year_passes(&mut self) {
     // Increment the age of the person in here
     self.age = &self.age + 1;
   }
@@ -39,13 +36,13 @@ fn main() {
     let age = read_line().trim().parse().unwrap();
     let mut p = Person::new(age);
 
-    p.amIOld();
+    p.am_i_old();
 
     for _ in 0..3 {
-      p.yearPasses();
+      p.year_passes();
     }
 
-    p.amIOld();
+    p.am_i_old();
     println!("");
   }
 }
